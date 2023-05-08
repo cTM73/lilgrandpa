@@ -30,8 +30,26 @@
       <i class="glyphicon glyphicon-volume-up"></i></button>
     <button id="button_pause" class="second" type="button">
       <i class="glyphicon glyphicon-volume-off"></i></button>
-	<button onclick="myFunction()">! Dark Mode !</button>
+	<button onclick="changeBackgroundDark();">! Dark Mode !</button>
+	<button onclick="changeBackgroundLight();">! Light Mode !</button>
   </div>
+
+
+<script type="text/javascript">
+
+    function changeBackgroundDark() {
+        document.body.style.background = 'url(nightsky.bmp) no-repeat';
+    }
+
+</script>
+
+<script type="text/javascript">
+
+    function changeBackgroundLight() {
+        document.body.style.background = 'url(sky.bmp) no-repeat';
+    }
+
+</script>
 
 
 
